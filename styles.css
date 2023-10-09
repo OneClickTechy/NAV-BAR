@@ -1,4 +1,4 @@
-
+/*top nav start*/
 body{
     background-color:grey;
     margin:0%
@@ -8,17 +8,17 @@ body{
     max-width: 100%;
     
 }
-nav>ul{
+#top>#list{
     list-style-type: none;
     overflow: hidden;
     
     margin: 0;
     padding: 0;
 }
-li{
+.l-data{
     float: left;
 }
-li a{
+.l-data a{
     display: block;
     padding:0.5rem;
     text-decoration: none;
@@ -29,3 +29,19 @@ a:hover{
     color: white;
     box-shadow: 0 5px 15px #afe0f5;
 }
+/*top nav end*/
+
+/*side nav start*/
+.l-data2{
+   list-style-type: none;
+   display: block;
+   float: left;
+}
+.l-data2{
+    clear: both;
+}
+#list2{
+    margin: 0;  
+    padding: 0;
+}
+/*side nav end*/
