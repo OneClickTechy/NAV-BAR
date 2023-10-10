@@ -1,4 +1,4 @@
-/*top nav start*/
+
 body{
     background-color:grey;
     margin:0%
@@ -8,17 +8,17 @@ body{
     max-width: 100%;
     
 }
-#top>#list{
+nav>ul{
     list-style-type: none;
     overflow: hidden;
     
     margin: 0;
     padding: 0;
 }
-.l-data{
+li{
     float: left;
 }
-.l-data a{
+li a{
     display: block;
     padding:0.5rem;
     text-decoration: none;
@@ -28,38 +28,4 @@ body{
 a:hover{
     color: white;
     box-shadow: 0 5px 15px #afe0f5;
-}
-/*top nav end*/
-
-/*side nav start*/
-.l-data2{
-   list-style-type: none;
-   display: block;
-   float: left;
-   clear: both;
-   width: 23%;
-   background-color: aqua;
-   color:#33334d;
-   text-align: center;
-   padding: 5px 0 ;
-}   
-   
-.l-data2:hover{
-    background-color: #33334d;
-    color: aqua;
-    padding: 10px 0 ;
-    box-shadow: 5px 5px 30px aqua;
-    margin-bottom: 15px;    
-}
-.l-data2:active{
-    background-color: white;
-    color: black;
-}
-#list2{
-    margin: 0;  
-    padding: 0;
-}
-/*side nav end*/
-#top,#side{
-    font-family: 'Ubuntu Mono', monospace;
 }
